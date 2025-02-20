@@ -11,9 +11,9 @@ const port = 3002;
 // Create a connection pool
 const pool = mysql.createPool({
     host: 'localhost',
-    user: 'newtir',
-    password: 'newtir',
-    database: 'newtir'
+    user: 'ind99',
+    password: 'ind99password',
+    database: 'kubergames'
 });
 
 app.use(bodyParser.json());
